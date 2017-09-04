@@ -10,11 +10,11 @@ export default class BaseLayout extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
           <NavLink className="navbar-brand" exact to='/' activeStyle={{
-    color: "#0275d8"}}>Carlota Pearl</NavLink>
+          color: "#0275d8"}}>Carlota Pearl</NavLink>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" exact to='/' activeStyle={{
+                <NavLink className="nav-link" to='/home' activeStyle={{
           color: "#0275d8"}}>Home <span className="sr-only">(current)</span></NavLink>
               </li>
               <li className="nav-item">

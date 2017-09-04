@@ -1,0 +1,16 @@
+body {
+  font-family: neuton;
+  background-image: url("https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg");
+  background-color: #CCFFFF;
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.header {
+  background-color:transparent;
+  color: white;
+  font-size: 5em;
+  margin-left: 300px;
+  length: 800px;
+}
