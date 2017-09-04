@@ -5,7 +5,7 @@ export default class Contact extends Component {
     return (
       <div className='contact-info'>
         <div className="card">
-          <img className="card-img-top" src="http://www.jillschmidtpr.com/wp-content/uploads/2015/12/contact-header-image.jpg" alt="contact info" />
+        <img className="card-img-top" src={require('../images/4000.jpg')} alt="Contact Header" style={{width: "100%", borderRadius: "5px"}} />
           <div className="card-block">
             <h4 className="card-title">Contact</h4>
           </div>

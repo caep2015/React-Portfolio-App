@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './styles/index.css'
-// import App from './components/App'
 import registerServiceWorker from './registerServiceWorker'
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
@@ -10,6 +9,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Reference from './components/Reference'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +19,7 @@ ReactDOM.render(
         <Route path='/about' component={About} />
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/contact' component={Contact} />
+        <Route path='/references' component={Reference} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

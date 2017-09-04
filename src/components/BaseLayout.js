@@ -29,6 +29,10 @@ export default class BaseLayout extends Component {
                 <NavLink className="nav-link" to='/contact' activeStyle={{
           color: "#0275d8"}}>Contact</NavLink>
               </li>
+              <li className="nav-item">
+  <NavLink className="nav-link" to='/references' activeStyle={{
+color: "#0275d8"}}>References</NavLink>
+              </li>
             </ul>
           </div>
         </nav>
