@@ -7,8 +7,6 @@ export default class BaseLayout extends Component {
   render () {
     return (
       <div>
-        <header className='header'>
-
           <div className="jumbotron">
             <div className="card">
               <img className="card-img-top" src={require('../images/42160.png')} alt="Card image" style={{width: "100%", hight: "50%", borderRadius: "5px"}} />
@@ -23,7 +21,6 @@ export default class BaseLayout extends Component {
               <Link to='/reference' className="btn btn-primary btn-lg" role="button">Reference</Link>
             </span>
           </div>
-        </header>
       </div>
     )
   }

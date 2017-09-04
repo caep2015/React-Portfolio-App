@@ -1,16 +1,36 @@
 body {
   font-family: neuton;
-  background-image: url("https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg");
+/*  background-image: url("https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg");
   background-color: #CCFFFF;
   background-attachment:fixed;
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat:no-repeat; */
 }
 
 .header {
   background-color:transparent;
   color: white;
   font-size: 5em;
-  margin-left: 300px;
-  length: 800px;
+  margin-top: 130px;
+  margin-left: 390px;
+  margin-bottom: 535px;
+}
+
+background-image {
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.h3 {
+
+  color: #005200;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 110px;
+  margin-right: 90px;
+}
+
+.footer {
+  text-align: center;
 }
