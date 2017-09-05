@@ -8,7 +8,7 @@ class App extends Component {
       <div className='App'>
         <div className='card' style={{backgroundImage: `url(${Background})`}}>
           <div className='header'>Carlota Pearl
-            <div className='h3'>I believe that persistant effort is the key to life, work, love, and learning.</div>
+            <div className='h3'>I believe that persistent effort is the key to life, work, love, and learning.</div>
           </div>
         </div>
         <div className='body'></div>
