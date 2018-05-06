@@ -1,4 +1,5 @@
-# React-Portfolio-App: Part 1
+# React-Portfolio-App: Part 1 
+TIY Week 11.2
 
 In this project, you will use your knowledge of React and React Router to create a mock portfolio website.
 
@@ -39,6 +40,7 @@ Results
 You can style your site to your liking. You aren't being assessed on your design skills, but try to make your site as attractive as possible.
 
 # Part 2 Portfolio refactor 
+TIY Week 11.4
 
 * You will need to migrate your `<BaseLayout>` component into your `index.js` file and apply it in the appropriate position so that it will render on each page.
 
